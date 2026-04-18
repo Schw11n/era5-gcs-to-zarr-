@@ -10,13 +10,13 @@ Supports parallel processing, caching, resume on interruption, and efficient chu
 
 ---
 
-依赖安装 / Requirements:
+## Requirements / 依赖安装
 
 ```bash
 pip install pandas gcsfs xarray numpy rich psutil
 ```
 
-使用方法 / Usage:
+## Usage/ 使用方法
 克隆仓库 / Clone the repository:
 
 ```bash
@@ -46,3 +46,24 @@ python era5_gcs_to_zarr.py
 
 按提示输入开始日期和结束日期，脚本会自动下载并生成 Zarr 文件。
 Enter start and end dates when prompted. The script will download and merge data into a Zarr file.
+
+## Contributing / 贡献指南
+
+欢迎提出建议或贡献改进！  
+请 fork 本仓库并在自己的分支上修改代码，然后通过 Pull Request 提交。  
+我会审查并决定是否合并到主仓库。  
+
+Suggestions and improvements are welcome!  
+Please fork this repository, make changes on your branch, and submit a Pull Request.  
+I will review and decide whether to merge it into the main repository.
+
+---
+
+## Notes / 说明
+
+本项目由 Schw11n 编写，目前仍在开发和改进中。  
+部分功能和代码结构可能还不够完善，欢迎提出建议或贡献改进。  
+
+This project is written by Schw11n and is still under development.  
+Some features and code structures may not be fully optimized yet. Contributions and feedback are welcome.
+
