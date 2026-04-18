@@ -46,21 +46,3 @@ python era5_gcs_to_zarr.py
 
 按提示输入开始日期和结束日期，脚本会自动下载并生成 Zarr 文件。
 Enter start and end dates when prompted. The script will download and merge data into a Zarr file.
-
-本文为作者原创，转载请注明出处。参考了 ERA5 官方文档和 Google Research ARCO ERA5 项目，但脚本与说明均为作者独立编写。
-This work is original by the author. Please cite the source when reusing. It references ERA5 official documentation and Google Research ARCO ERA5 project, but the script and explanations are independently written.
-
-本项目采用 MIT License，可自由使用、修改和分发。
-This project is licensed under the MIT License. You are free to use, modify, and distribute it.
-
-参考资料 / References:
-
-ERA5 官方文档 / ERA5 official docs: https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5
-
-xarray 文档 / xarray docs: https://docs.xarray.dev/en/stable/
-
-gcsfs 文档 / gcsfs docs: https://gcsfs.readthedocs.io/en/latest/
-
-Zarr 项目 / Zarr project: https://zarr.readthedocs.io/en/stable/
-
-Google Research ARCO ERA5 仓库 / Google Research ARCO ERA5 repo: https://github.com/google-research/arco-era5
